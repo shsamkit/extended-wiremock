@@ -1,11 +1,11 @@
-package com.wm.extendedwiremcok.config;
+package com.wm.extendedwiremock.config;
 
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.options;
 
 import com.github.tomakehurst.wiremock.WireMockServer;
 import com.github.tomakehurst.wiremock.core.WireMockConfiguration;
-import com.wm.extendedwiremcok.config.WiremockServerConfig.JettyConfig;
-import com.wm.extendedwiremcok.config.WiremockServerConfig.RequestJournal;
+import com.wm.extendedwiremock.config.WiremockServerConfig.JettyConfig;
+import com.wm.extendedwiremock.config.WiremockServerConfig.RequestJournal;
 import java.util.Optional;
 import java.util.function.Consumer;
 import org.springframework.beans.factory.annotation.Autowired;

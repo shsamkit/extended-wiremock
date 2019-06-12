@@ -1,4 +1,4 @@
-package com.wm.extendedwiremcok.config;
+package com.wm.extendedwiremock.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

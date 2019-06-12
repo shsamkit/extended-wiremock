@@ -1,9 +1,17 @@
+# This file is just a sample of the configurable properties provided by the project.
+# All the values shown here are just the faults documented here: wiremock.org/docs/configuration
+# Please read the official documentation and keep/set only the properties you need
 #wm:
 #  server:
-#    port: 8082
-#    mappingsFilesDir: /usr/local/var/wm-stubs
+#    port: 8080
+#    mappingsFilesDir: src/test/resources
 #    jetty:
-#      asynchronousResponse: true
+#      containerThreads: 10
+#      accepter: 2
+#      acceptQueueSize: 100
+#      headerBufferSize: 8192
+#      asynchronousResponse: false
+#      asynchronousThreads: 10
 #    requestJournal:
-#      disable: true
-#
+#      disable: false
+#      maxEntries: 100
