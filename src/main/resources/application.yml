@@ -1,0 +1,9 @@
+#wm:
+#  server:
+#    port: 8082
+#    mappingsFilesDir: /usr/local/var/wm-stubs
+#    jetty:
+#      asynchronousResponse: true
+#    requestJournal:
+#      disable: true
+#
