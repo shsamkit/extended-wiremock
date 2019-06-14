@@ -1,0 +1,3 @@
+wm:
+  server:
+    mappingsFilesDir: /usr/local/var/wm-stub
