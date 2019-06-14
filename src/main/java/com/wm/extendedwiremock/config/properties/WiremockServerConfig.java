@@ -1,15 +1,21 @@
-package com.wm.extendedwiremock.config;
+package com.wm.extendedwiremock.config.properties;
 
+import com.wm.extendedwiremock.validation.ValidWiremockServerConfig;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
+import org.springframework.validation.annotation.Validated;
 
 
 @Component
 @ConfigurationProperties(prefix = "wm.server")
+@Validated
+@ValidWiremockServerConfig
 public class WiremockServerConfig {
 
 	private Integer port;
+
 	private String mappingsFilesDir;
+
 	private JettyConfig jetty;
 	private RequestJournal requestJournal;
 

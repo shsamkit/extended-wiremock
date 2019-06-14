@@ -15,3 +15,12 @@
 #    requestJournal:
 #      disable: false
 #      maxEntries: 100
+#remote:
+#  git:
+#    uri: ssh://url-to-your-repo
+#    hostname: hostname-from-the-uri
+#    branch: target-branch, defaults to master
+#    path-to-stub: path-to-stub (parent director for mappings and __files directory), defaults to root of repo
+#    host-key: key-to-host-server
+#    host-key-algorithm: ssh-rsa
+#    private-key: private-key (\n separated value from your private key file, id_rsa)
