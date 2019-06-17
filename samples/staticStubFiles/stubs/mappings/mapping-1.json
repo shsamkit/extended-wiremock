@@ -1,0 +1,16 @@
+{
+  "request" : {
+    "method" : "GET",
+    "url" : "/user/123"
+  },
+  "response" : {
+    "status" : 200,
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : {
+      "id" : 123,
+      "name" : "Firstname Lastname"
+    }
+  }
+}
